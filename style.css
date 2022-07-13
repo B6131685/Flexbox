@@ -1,0 +1,49 @@
+.header{
+    width: 200px;
+    border: 1px solid black;
+    background-color: yellowgreen;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+ 
+    /* css for ceneter vertical text */
+    display:table-cell;
+    vertical-align: middle;
+
+}
+
+
+
+.flex-container{
+    display: flex;
+    width: 200px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.item{
+    background-color: rgb(226, 107, 107);
+    border: 1px solid black;
+    width: 50px;
+    /* word-wrap: break-word; */
+}
+
+
+.normal-div{
+    background-color: teal;
+    color: #FFF;
+    font-size:30px;
+}
+
+.container-two{
+    background-color: steelblue;
+    height: 100px;
+    width: 200px;
+    display: flex;
+}
+
+.default-item{
+    border: 1px solid black;
+}
