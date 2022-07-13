@@ -37,11 +37,21 @@
     font-size:30px;
 }
 
+.container-one{
+    background-color: steelblue;
+    height: 100px;
+    width: 200px;
+    display: flex;
+}
+
 .container-two{
     background-color: steelblue;
     height: 100px;
     width: 200px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: middle; */
 }
 
 .default-item{
